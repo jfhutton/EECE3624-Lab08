@@ -72,7 +72,7 @@
   <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
     <ToolchainSettings>
       <AvrGcc>
-  <avrgcc.common.Device>-mmcu=atmega128a -B "%24(PackRepoDir)\Atmel\ATmega_DFP\1.4.351\gcc\dev\atmega128a"</avrgcc.common.Device>
+  <avrgcc.common.Device>-mmcu=atmega128a -B "%24(PackRepoDir)\Atmel\ATmega_DFP\1.7.374\gcc\dev\atmega128a"</avrgcc.common.Device>
   <avrgcc.common.optimization.RelaxBranches>True</avrgcc.common.optimization.RelaxBranches>
   <avrgcc.common.outputfiles.hex>True</avrgcc.common.outputfiles.hex>
   <avrgcc.common.outputfiles.lss>True</avrgcc.common.outputfiles.lss>
@@ -88,7 +88,7 @@
   </avrgcc.compiler.symbols.DefSymbols>
   <avrgcc.compiler.directories.IncludePaths>
     <ListValues>
-      <Value>%24(PackRepoDir)\Atmel\ATmega_DFP\1.4.351\include</Value>
+      <Value>%24(PackRepoDir)\Atmel\ATmega_DFP\1.7.374\include</Value>
     </ListValues>
   </avrgcc.compiler.directories.IncludePaths>
   <avrgcc.compiler.optimization.level>Optimize for size (-Os)</avrgcc.compiler.optimization.level>
@@ -102,7 +102,7 @@
   </avrgcc.linker.libraries.Libraries>
   <avrgcc.assembler.general.IncludePaths>
     <ListValues>
-      <Value>%24(PackRepoDir)\Atmel\ATmega_DFP\1.4.351\include</Value>
+      <Value>%24(PackRepoDir)\Atmel\ATmega_DFP\1.7.374\include</Value>
     </ListValues>
   </avrgcc.assembler.general.IncludePaths>
 </AvrGcc>
@@ -111,7 +111,7 @@
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <ToolchainSettings>
       <AvrGcc>
-  <avrgcc.common.Device>-mmcu=atmega128a -B "%24(PackRepoDir)\Atmel\ATmega_DFP\1.4.351\gcc\dev\atmega128a"</avrgcc.common.Device>
+  <avrgcc.common.Device>-mmcu=atmega128a -B "%24(PackRepoDir)\Atmel\ATmega_DFP\1.7.374\gcc\dev\atmega128a"</avrgcc.common.Device>
   <avrgcc.common.optimization.RelaxBranches>True</avrgcc.common.optimization.RelaxBranches>
   <avrgcc.common.outputfiles.hex>True</avrgcc.common.outputfiles.hex>
   <avrgcc.common.outputfiles.lss>True</avrgcc.common.outputfiles.lss>
@@ -127,7 +127,7 @@
   </avrgcc.compiler.symbols.DefSymbols>
   <avrgcc.compiler.directories.IncludePaths>
     <ListValues>
-      <Value>%24(PackRepoDir)\Atmel\ATmega_DFP\1.4.351\include</Value>
+      <Value>%24(PackRepoDir)\Atmel\ATmega_DFP\1.7.374\include</Value>
     </ListValues>
   </avrgcc.compiler.directories.IncludePaths>
   <avrgcc.compiler.optimization.PackStructureMembers>True</avrgcc.compiler.optimization.PackStructureMembers>
@@ -141,7 +141,7 @@
   </avrgcc.linker.libraries.Libraries>
   <avrgcc.assembler.general.IncludePaths>
     <ListValues>
-      <Value>%24(PackRepoDir)\Atmel\ATmega_DFP\1.4.351\include</Value>
+      <Value>%24(PackRepoDir)\Atmel\ATmega_DFP\1.7.374\include</Value>
     </ListValues>
   </avrgcc.assembler.general.IncludePaths>
   <avrgcc.assembler.debugging.DebugLevel>Default (-Wa,-g)</avrgcc.assembler.debugging.DebugLevel>
