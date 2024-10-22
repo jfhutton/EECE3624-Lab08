@@ -26,7 +26,6 @@
 
 #include <avr/io.h>
 #include <util/delay.h>
-#include <stdio.h>  // for sprintf functionality
 #include "UARTLibrary.h"  // Double quotes for local library.
 
 #define BAUDRATE 9600 // standard values from 1200 to 115200
